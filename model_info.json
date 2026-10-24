@@ -1,0 +1,83 @@
+{
+    "best_algorithm": "Linear Regression",
+    "n_rows": 4600,
+    "task": "regression",
+    "target": "price",
+    "cv_mean_rmse": 342605.5534679075,
+    "cv_mean_mae": 139137.16607703627,
+    "features_meta": {
+        "bedrooms": {
+            "dtype": "numeric",
+            "median": 3.0
+        },
+        "bathrooms": {
+            "dtype": "numeric",
+            "median": 2.25
+        },
+        "sqft_living": {
+            "dtype": "numeric",
+            "median": 1980.0
+        },
+        "sqft_lot": {
+            "dtype": "numeric",
+            "median": 7683.0
+        },
+        "floors": {
+            "dtype": "numeric",
+            "median": 1.5
+        },
+        "waterfront": {
+            "dtype": "numeric",
+            "median": 0.0
+        },
+        "view": {
+            "dtype": "numeric",
+            "median": 0.0
+        },
+        "condition": {
+            "dtype": "numeric",
+            "median": 3.0
+        },
+        "sqft_above": {
+            "dtype": "numeric",
+            "median": 1590.0
+        },
+        "sqft_basement": {
+            "dtype": "numeric",
+            "median": 0.0
+        },
+        "yr_built": {
+            "dtype": "numeric",
+            "median": 1976.0
+        },
+        "yr_renovated": {
+            "dtype": "numeric",
+            "median": 0.0
+        },
+        "city": {
+            "dtype": "categorical",
+            "top_values": [
+                "Seattle",
+                "Renton",
+                "Bellevue",
+                "Redmond",
+                "Kirkland",
+                "Issaquah",
+                "Kent",
+                "Auburn",
+                "Sammamish",
+                "Federal Way",
+                "Shoreline",
+                "Woodinville",
+                "Maple Valley",
+                "Mercer Island",
+                "Burien",
+                "Snoqualmie",
+                "Kenmore",
+                "Des Moines",
+                "North Bend",
+                "Covington"
+            ]
+        }
+    }
+}
